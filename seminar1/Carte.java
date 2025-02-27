@@ -28,7 +28,7 @@ public class Carte {
 
     @Override
     protected Object clone() {
-        Carte copie = new Carte();
+        Carte copie = new Carte(); // sau folosesti aici constructorul
         copie.titlul = new String(this.titlul);
         copie.nrPagini = this.nrPagini;
         return copie;
